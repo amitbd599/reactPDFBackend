@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builder": [{ "src": "./server.js", "use": "@versel/node" }],
+  "router": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
